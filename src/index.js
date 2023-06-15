@@ -10,7 +10,7 @@ root.render(
   <Router>
     <Routes>
       <Route path="/" element={<LandingPage />} />
-      <Route path="https://lollywest.netlify.app/Podcasters" element={<Podcasters />} />
+      <Route path="/Podcasters" element={<Podcasters />} />
       <Route path="/Investors" element={<Investors />} />
     </Routes>
   </Router>
