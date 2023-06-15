@@ -8,11 +8,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
-  <Routes>
-    <Route path="/" element={<LandingPage />} />
-    <Route path="/Podcasters" element={<Podcasters />} />
-    <Route path="/Investors" element={<Investors />} />
-  </Routes>
-</Router>
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="https://lollywest.netlify.app/Podcasters" element={<Podcasters />} />
+      <Route path="/Investors" element={<Investors />} />
+    </Routes>
+  </Router>
 );
 

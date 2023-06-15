@@ -21,7 +21,7 @@ function LandingPage() {
 
       try {
          /* Sends a response to the backend and gives it the information needed for registration */
-         await axios.post("https://lollywest-9d5l.onrender.com", {
+         await axios.post("https://lollywest-9d5l.onrender.com/users/joinWaitlist", {
             name,
             email,
             phoneNumber,
